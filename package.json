@@ -1,0 +1,27 @@
+{
+    "name": "university",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Skrag/university.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Skrag/university/issues"
+    },
+    "homepage": "https://github.com/Skrag/university#readme",
+    "dependencies": {
+        "hapi": "^13.0.0"
+    },
+    "devDependencies": {
+        "lab": "^8.2.0"
+
+    }
+}
