@@ -9,8 +9,9 @@ server.connection({ port: 8000 });
 server.route({
     method: 'GET',
     path: '/version',
-    handler: function (request, reply) {
-        reply({ "version": Package.version });
+    handler:function (request, reply) {
+
+        reply({ 'version': Package.version });
     }
 });
 
